@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<style>
+  .color1 {
+    background: #c4d2a4;
+    margin-right: 10px;
+  }
+
+  .color2 {
+    background: #b5c5f0;
+    margin-right: 10px;
+  }
+
+  .color3 {
+    background: #c6a5d8;
+  }
+
+  .color4 {
+    background: #e1b6ca;
+
+  }
+
+  .container {
+    width: 1010px;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+  }
+
+  .container .mainDiv {
+    width: 49%;
+    height: 100%;
+  }
+
+  .two {
+    display: flex;
+    height: 49%;
+    margin-bottom: 10px;
+  }
+
+  .two div {
+    width: 49%;
+  }
+
+  .lastOne {
+    height: 49%;
+  }
+</style>
+
+<div class="container">
+  <div class="item1 item color1 mainDiv">1</div>
+  <div class="mainDiv">
+    <div class="two">
+      <div class="item2 item color2">2</div>
+      <div class="item3 item color3">3</div>
+    </div>
+    <div class="item4 item color4 lastOne">4</div>
+  </div>
+</div>
